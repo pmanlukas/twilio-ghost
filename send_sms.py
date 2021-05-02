@@ -10,9 +10,11 @@ client = Client(account_sid, auth_token)
 
 message = client.messages \
     .create(
-         body='This is the ship that made the Kessel Run in fourteen parsecs?',
+         #body='+491709296197: Sure',
+         body='Hey, I need a Taxi to munich central station, cheers Lukas',
          from_='+17372103868',
-         to='+491709296197'
+         #to='+491709296197'
+         to='+16672072802'
      )
 
 print(message.sid)
