@@ -1,3 +1,5 @@
 config.py
 *.pyc
 venv
+twilio-creds.txt
+twilio.env
